@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Réserver un bilan — FORGE, Asnières-sur-Seine</title>
+<link rel="icon" href="images/favicon/favicon.ico" sizes="48x48">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16.png">
+<link rel="apple-touch-icon" href="images/favicon/apple-touch-icon.png">
+<meta name="description" content="Réservez votre bilan offert de 75 minutes à l'atelier FORGE, 84 rue des Bourguignons, Asnières-sur-Seine.">
+<link rel="stylesheet" href="css/style.css?v=2">
+</head>
+<body>
+
+<header class="header" id="header">
+  <div class="wrap">
+    <a class="logo" href="index.html">Forge<span class="logo-dot"></span></a>
+    <nav class="nav" aria-label="Navigation principale">
+      <a href="index.html">Accueil</a>
+      <a href="programmes.html">Programmes</a>
+      <a href="index.html#methode">Méthode</a>
+      <a href="contact.html" aria-current="page">Contact</a>
+    </nav>
+    <a class="btn btn--lime header-cta" href="contact.html">Bilan offert</a>
+    <button class="burger" id="burger" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="mobile-nav">
+      <span></span>
+    </button>
+  </div>
+</header>
+
+<nav class="mobile-nav" id="mobile-nav" aria-label="Navigation mobile">
+  <a href="index.html">Accueil</a>
+  <a href="programmes.html">Programmes</a>
+  <a href="index.html#methode">Méthode</a>
+  <a href="contact.html">Contact</a>
+  <a class="btn btn--lime" href="contact.html">Réserver un bilan offert</a>
+</nav>
+
+<main>
+
+  <section class="page-head">
+    <div class="wrap">
+      <span class="eyebrow">Contact</span>
+      <h1>Réserver<br>le bilan.</h1>
+      <p class="lead">75 minutes, offertes, sans engagement. Je réponds sous 24 heures avec deux ou trois créneaux à te proposer.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="contact-grid">
+
+        <div>
+          <div class="form-ok" id="form-ok" role="status">
+            <b>Demande envoyée.</b>
+            <p style="margin-top:8px;color:#C6C6BF">Merci, je reviens vers toi sous 24 heures avec des créneaux. Dans une vraie mise en ligne, ce formulaire serait relié à une boîte mail ou à un service comme Formspree.</p>
+          </div>
+
+          <form id="contact-form" novalidate>
+            <div class="field">
+              <label for="nom">Prénom</label>
+              <input type="text" id="nom" name="nom" autocomplete="given-name">
+              <span class="err"></span>
+            </div>
+
+            <div class="field">
+              <label for="email">E-mail</label>
+              <input type="email" id="email" name="email" autocomplete="email">
+              <span class="err"></span>
+            </div>
+
+            <div class="field">
+              <label for="tel">Téléphone <span style="text-transform:none;letter-spacing:0;font-family:var(--font-body);font-size:13px">(facultatif)</span></label>
+              <input type="tel" id="tel" name="tel" autocomplete="tel">
+              <span class="err"></span>
+            </div>
+
+            <div class="field">
+              <label for="objectif">Ton objectif</label>
+              <select id="objectif" name="objectif">
+                <option value="">Choisir…</option>
+                <option value="debut">Débuter la musculation</option>
+                <option value="force">Gagner en force</option>
+                <option value="masse">Prendre de la masse</option>
+                <option value="perte">Perdre du poids</option>
+                <option value="retour">Revenir après une blessure ou une pause</option>
+                <option value="competition">Préparer une compétition</option>
+              </select>
+              <span class="err"></span>
+            </div>
+
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="Ton niveau actuel, tes disponibilités, tes éventuelles blessures…"></textarea>
+              <span class="err"></span>
+            </div>
+
+            <button class="btn btn--lime" type="submit">Envoyer ma demande <span class="arrow">&rarr;</span></button>
+            <p class="form-note">Site de démonstration : aucune donnée n'est transmise ni conservée.</p>
+          </form>
+        </div>
+
+        <aside>
+          <div class="info-card">
+            <h3>L'atelier</h3>
+            <dl>
+              <div class="info-row"><dt>Adresse</dt><dd>84 rue des Bourguignons<br>92600 Asnières-sur-Seine</dd></div>
+              <div class="info-row"><dt>Accès</dt><dd>Gare de Bois-Colombes (Transilien J/L), 6 min à pied</dd></div>
+              <div class="info-row"><dt>Horaires</dt><dd>Lundi au samedi, 7h – 21h</dd></div>
+            </dl>
+          </div>
+
+          <div class="info-card">
+            <h3>Direct</h3>
+            <dl>
+              <div class="info-row"><dt>Téléphone</dt><dd><a href="tel:+33600000000">06 00 00 00 00</a></dd></div>
+              <div class="info-row"><dt>E-mail</dt><dd><a href="mailto:contact@forge-asnieres.fr">contact@forge-asnieres.fr</a></dd></div>
+              <div class="info-row"><dt>Réponse</dt><dd>Sous 24 h en semaine</dd></div>
+            </dl>
+          </div>
+
+          <figure style="margin:18px 0 0;border:1px solid var(--line)">
+            <img src="images/halteres.jpg" alt="Rack d'haltères contre un mur de béton à l'atelier" loading="lazy" width="1600" height="1067" style="width:100%;aspect-ratio:4/3;object-fit:cover">
+          </figure>
+        </aside>
+
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <a class="logo" href="index.html">Forge<span class="logo-dot"></span></a>
+        <p class="footer-tag">Coaching individuel en force et musculation à Asnières-sur-Seine. Bilan offert, programme écrit, séances corrigées.</p>
+      </div>
+      <div>
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="programmes.html">Programmes</a></li>
+          <li><a href="index.html#methode">Méthode</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="tel:+33600000000">06 00 00 00 00</a></li>
+          <li><a href="mailto:contact@forge-asnieres.fr">contact@forge-asnieres.fr</a></li>
+          <li>84 rue des Bourguignons<br>92600 Asnières-sur-Seine</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 FORGE — Démonstration fictive.</span>
+      <span>Photos : Unsplash</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js?v=2"></script>
+</body>
+</html>
